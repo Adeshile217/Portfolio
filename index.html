@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Matemasie&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+
+<body>
+    <div id="intro">
+        <h2 id="name">HELLO, I AM <span id="myname1">ADESHILE.</span></h2>
+        <H1 id="nameh1">A FULLSTACK SOFTWARE DEVELOPER</H1>
+    </div>
+    <div id="about">
+        <!-- <h2 class="h2">ABOUT ME</h2> -->
+        <div id="abouttext">
+            <div>
+                <p class="texts">I am <span id="myname2">ADESHILE IBRAHEEM,</span> a Nigerian-born website and application
+                    developer with expertise in building and managing both the frontend and backend of digital products.
+                    I have over a year of experience in web design, software engineering, and creative design.
+
+                    My focus is on creating seamless, efficient, and user-friendly websites and
+                    applications that contribute to the overall success <span class="diffcolor">of each</span> project.
+                </p>
+                <p class="texts">
+                    I am passionate abou<span class="diffcolor">t developing exceptional softw</span>are that enhances
+                    the lives of
+                    <span class="diffcolor">the users and visitors. I specialize i</span>n crafting solutions for a
+                    diverse
+                    <span class="diffcolor">range of clients,
+                        from individuals a</span>nd small businesses to large en<span class="diffcolor">terprise
+                        corporations.
+                        Imagine w</span>hat you could achieve with a so<span class="diffcolor">ftware expert right at
+                        your fi</span>ngertips.
+                </p>
+            </div>
+            <div>
+                <p class="texts" id="opentojob">
+                    I'm open to job opportunities where I can contribute, learn, and grow.
+                    If you have an opportunity that aligns with my skills and experience,
+                    please feel free to <a href="#contact">contact me</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+   
+    <div id="skills">
+        <ul data-tabs id="h21">
+            <li class="h2"><a data-tabby-default href="#skill">SKILLS</a></li>
+            <li class="h2"><a href="#education">EDUCATION</a></li>
+        </ul>
+        <div id="skill">
+            <div id="lists">
+                <p id="l345">WORDPRESS</p>
+                <p id="l12">HTML</p>
+                <p id="l345">JAVASCRIPT</p>
+                <p id="l12">CSS</p>
+                <p id="l345">CORELDRAW</p>
+                <p id="l345">PHOTOSHOP</p>
+            </div> 
+        </div>
+        <div id="education">
+            <ul class="edulist">
+            <li>
+               <span class="qualifications"> BS.c in Project Management</span>
+            </br>
+                OBAFEMI AWOLOWO UNIVERSITY ILE-IFE
+            </li>
+            <li>
+                <span class="qualifications">Level 5 Diploma in IT-Networking</span>
+                <br>
+                CHESNUT EDUCATION GROUP
+            </li>
+            <li>
+                <span class="qualifications">CompTIA Security+ (Cyber Security)</span>
+                <br>
+                MAKINTOUCH
+            </li>
+            </ul>
+            <!-- <ul class="edulist">
+                <li>
+                    <span class="qualifications">Graphics Design</span>
+                    <br>
+                    WORLDLINKS COMPUTER INSTITUTE
+                </li>
+                <li>
+                    <span class="qualifications">Wordpress Management</span>
+                    <br>
+                    SAGE MEDIA
+                </li> -->
+                <!-- <li>
+                    <span class="qualifications">FullStack Development</span>
+                    <br>
+                    
+                </li> -->
+            </ul>
+        </div>
+
+    </div>
+    <div id="quotebg">
+        <p id="quote">Turning ideas into interactive realities through clean efficient code.</p>
+    </div>
+    <div id="contact">
+        <h2 id="h3">CONTACT ME</h2>
+        <div id="contactarea">
+            <div>
+                <p class="contactlist"><a href="sms:+97433693911?body=Hello%20from%20my%20website">TEL</a></p>
+                <p class="contactlist"><a
+                        href="mailto:sadeshile@gmail.com?subject=I%have%20a%20job%20for%20you&body=Hello%20from%20my%20website">EMAIL</a>
+                </p>
+                <p class="contactlist"><a href="https://www.linkedin.com">LINKEDIN</a></p>
+                <p class="contactlist"><a href="https://web.telegram.org">TELEGRAM</a></p>
+                <p></p>
+            </div>
+            <div>
+                <form action="">
+                    <div>
+
+                        <input type="text" placeholder="Name" class="placeholder">
+                    </div>
+                    <div>
+
+                        <input type="email" placeholder="Email" class="placeholder">
+                    </div>
+                    <div>
+
+                        <textarea name="message" id="textarea" placeholder="Message"></textarea>
+                    </div>
+                    <button id="button">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
+    <script>
+        var tabs = new Tabby('[data-tabs]');
+    </script>
+</body>
+
+</html>

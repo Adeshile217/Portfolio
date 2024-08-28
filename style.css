@@ -1,0 +1,226 @@
+body{
+    width: 100vw;
+    height: 300vh;
+    background-color: rgb(7, 7, 72);
+    border: solid thick rgb(255, 255, 255);
+}
+#intro{
+    width: 100vw;
+    height: 70vh;
+    /* background-image: url(./htmlbg.jpg); */
+    
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 255)); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; */
+  padding: 7% ;
+
+}
+#nameh1{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 70px;
+  color: #ffffff;
+  width: 39%;
+  max-width: 40%;
+  padding-left: 50px;
+  text-shadow: 3px 3px 5px skyblue;
+}
+#name{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #b3b1b1;
+    max-width: 35%;
+    padding-left: 50px; 
+} 
+#myname1{
+    background-color: #67adef;
+    border: 0;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+#myname2{
+    font-weight: bold;
+}
+#about{
+text-align: center;
+}
+.h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+#h21{
+    text-align: center;
+}
+#abouttext{
+    width: 80vw ;
+    height: 50vh;
+    background-image: url(./undraw_Software_engineer_re_tnjc.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.texts{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16.2px;
+}
+.diffcolor{
+    color: white;
+}
+#lists{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+#l12{
+    background-color: skyblue;
+    height: 25px;
+    width: 75px;
+    border: solid thick white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#l345{
+    background-color: skyblue;
+    height: 25px;
+    width: 150px;
+    border: solid thick white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#education{
+    color: white;
+    padding-left: 30px;
+    /* padding-right: 30px; */
+    /* text-align: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16.2px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+.qualifications{
+    font-weight: bold;
+}
+#quotebg{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 35px 0px;
+    background: radial-gradient(rgb(104, 104, 104), rgb(5, 5, 235),rgb(110, 145, 159));
+    border: solid 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    
+}
+#quote{
+    font-size: 22px;
+    /* font-family: "Playwrite CU", cursive; */
+    font-family: "Matemasie", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+    width: 14vw;
+    color: white;
+}
+#contact{
+    /* display: flex;
+    justify-self: center;
+    align-items: center; */
+    background-color: skyblue;
+    border-radius: 20px 20px 0 0;
+    width: 85vw;
+    height: 61.5vh;
+    margin: 83px;
+    margin-left: 7.5%;
+    /* padding-left: 22px; */
+}
+#h3{
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+.contactlist{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 30px;
+
+}
+#contactarea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* text-align: center; */
+}
+form{
+    background-color: rgb(7, 7, 72);
+    height: 40vh;
+    width: 40vw;
+    border-radius: 15px;
+    padding-top: 20px;
+    /* margin-left: 20px; */
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns:  1fr 5fr 1fr; */
+    gap: 5px;
+    text-align: start;
+}
+.placeholder{
+    width: 30vw;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#button{
+    margin-left: 20px;
+    max-width: 7vw;
+    height: 30px;
+    border-radius: 10px;
+}
+#textarea{
+    width: 30vw;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
