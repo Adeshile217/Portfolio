@@ -1,19 +1,13 @@
 body{
     width: 100vw;
-    height: 300vh;
+    height: 316.1vh;
     background-color: rgb(7, 7, 72);
     border: solid thick rgb(255, 255, 255);
 }
 #intro{
     width: 100vw;
     height: 70vh;
-    /* background-image: url(./htmlbg.jpg); */
-    
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 255)); */
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center; */
-  padding: 7% ;
+    padding: 7% ;
 
 }
 #nameh1{
@@ -91,6 +85,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 15px;
+padding-top: 50px;
 }
 #l12{
     background-color: skyblue;
@@ -114,15 +109,17 @@ gap: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
+#skills{
+    height: 50vh;
+}
+hr{
+    width: calc((100%/3));
+}
 #education{
     color: white;
     padding-left: 30px;
-    /* padding-right: 30px; */
-    /* text-align: center; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16.2px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
 }
 .qualifications{
     font-weight: bold;
@@ -142,24 +139,19 @@ gap: 15px;
 }
 #quote{
     font-size: 22px;
-    /* font-family: "Playwrite CU", cursive; */
     font-family: "Matemasie", sans-serif;
-  font-weight: bold;
-  font-style: normal;
+    font-weight: bold;
+    font-style: normal;
     width: 14vw;
     color: white;
 }
 #contact{
-    /* display: flex;
-    justify-self: center;
-    align-items: center; */
     background-color: skyblue;
     border-radius: 20px 20px 0 0;
     width: 85vw;
     height: 61.5vh;
     margin: 83px;
     margin-left: 7.5%;
-    /* padding-left: 22px; */
 }
 #h3{
     padding-top: 20px;
@@ -183,7 +175,6 @@ gap: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    /* text-align: center; */
 }
 form{
     background-color: rgb(7, 7, 72);
@@ -191,14 +182,12 @@ form{
     width: 40vw;
     border-radius: 15px;
     padding-top: 20px;
-    /* margin-left: 20px; */
     color: white;
     font-size: 15px;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns:  1fr 5fr 1fr; */
     gap: 5px;
     text-align: start;
 }
